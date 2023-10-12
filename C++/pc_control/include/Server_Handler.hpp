@@ -17,10 +17,6 @@ class server_handler{
     void server_closeConnection();
     ~server_handler();
 
-
-
-
-
     private:
     char buffer[256];
     bool has_client = false;
@@ -28,11 +24,6 @@ class server_handler{
     int socket_fd;
     int ClientSocket_fd;
     struct sockaddr_in address;
-
-
-
-
-
 };
 
 #endif // !SERVER_HANDLER_
